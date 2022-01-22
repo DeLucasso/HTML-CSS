@@ -1,0 +1,27 @@
+ul li a {
+  text-decoration: none;
+}
+
+a:hover {
+  color:#ff0005;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li:hover:before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    background: #ff0005;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    left:calc(50% - 8px);
+}
+
+.navbar {
+    word-spacing: 30px;
+}
